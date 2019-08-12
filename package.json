@@ -1,0 +1,53 @@
+{
+  "name": "iron-state",
+  "version": "1.0.0",
+  "description": "React state management library based on Hooks and typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/waltcow/iron-state.git"
+  },
+  "license": "ISC",
+  "author": "waltcow@gmail.com",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean:dist && rollup -c",
+    "build:watch": "npm run clean:dist && rollup -c -w",
+    "clean:dist": "rimraf dist/*",
+    "lint": "tslint -c tslint.json \"src/**/*.{ts,tsx}\"",
+    "lint:fix": "tslint -c tslint.json \"src/**/*.{ts,tsx}\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "tsc": "npm run clean:dist && tsc"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/react": "^16.9.1",
+    "fast-deep-equal": "^2.0.1",
+    "immer": "^3.1.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.4.0",
+    "rollup-plugin-typescript2": "^0.19.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "defaultSeverity": "warning",
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "node_modules/**/*.js",
+      "lib/**/*.ts",
+      "dist/**/*.ts"
+    ]
+  },
+  "rules": {
+    "prettier": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "semicolon": [true, "never"],
+    "no-console": false,
+    "no-debugger": false,
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "max-classes-per-file": false,
+    "ordered-imports": false,
+    "member-access": false,
+    "curly": [true, "ignore-same-line"],
+    "interface-name": [true, "never-prefix"]
+  }
+}
