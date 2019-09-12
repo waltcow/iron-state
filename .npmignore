@@ -1,0 +1,9 @@
+# .npmignore
+
+node_modules
+examples
+__tests__
+tslint.json
+tsconfig.json
+rollup.config.js
+src
