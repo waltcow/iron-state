@@ -1470,9 +1470,9 @@ acorn-walk@^6.0.1:
   integrity sha1-Ejy487hMIXHx9/slJhWxx4prGow=
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"
@@ -4846,9 +4846,10 @@ ipaddr.js@^1.9.0:
   resolved "https://registry.npm.taobao.org/ipaddr.js/download/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=
 
-iron-state@waltcow/iron-state:
-  version "1.0.0"
-  resolved "https://codeload.github.com/waltcow/iron-state/tar.gz/b3d152102b9f66a072f73161da29ad1133f18a30"
+iron-state@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/iron-state/-/iron-state-1.0.1.tgz#514e6a00288a8c8664ec1640c69e8d821ef5dbcd"
+  integrity sha512-vzicXEVtCd+2noXwbEhW+0vyCkNXya7U3k9rw0XNczCRGV8tvDj3dMnnRRXRxFj983CgY0GIhjdiOP6w1kb/3A==
   dependencies:
     "@types/jest" "^24.0.17"
     "@types/react" "^16.9.1"
