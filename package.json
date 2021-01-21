@@ -32,7 +32,7 @@
     "@types/jest": "^24.0.17",
     "@types/react": "^16.9.1",
     "fast-deep-equal": "^2.0.1",
-    "immer": "^3.1.2"
+    "immer": "^8.0.1"
   },
   "devDependencies": {
     "jest": "^24.8.0",
