@@ -3064,9 +3064,9 @@ decamelize@^2.0.0:
     xregexp "4.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.0.1"
@@ -4846,9 +4846,10 @@ ipaddr.js@^1.9.0:
   resolved "https://registry.npm.taobao.org/ipaddr.js/download/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=
 
-iron-state@waltcow/iron-state:
-  version "1.0.0"
-  resolved "https://codeload.github.com/waltcow/iron-state/tar.gz/b3d152102b9f66a072f73161da29ad1133f18a30"
+iron-state@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/iron-state/-/iron-state-1.0.1.tgz#514e6a00288a8c8664ec1640c69e8d821ef5dbcd"
+  integrity sha512-vzicXEVtCd+2noXwbEhW+0vyCkNXya7U3k9rw0XNczCRGV8tvDj3dMnnRRXRxFj983CgY0GIhjdiOP6w1kb/3A==
   dependencies:
     "@types/jest" "^24.0.17"
     "@types/react" "^16.9.1"
